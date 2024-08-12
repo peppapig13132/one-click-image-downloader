@@ -1,0 +1,33 @@
+body {
+  width: 220px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.popup-title {
+  align-items: center;
+  column-gap: 10px;
+}
+.popup-title .logo {
+  height: 24px;
+}
+.popup-title h3 {
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+  color: rgb(51 65 85);
+}
+.popup-action {
+  width: 100%;
+  padding: 10px;
+  color: rgb(51 65 85);
+  border: solid 1px rgb(148 163 184);
+  border-radius: 3px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.popup-footer {
+  margin-top: 5px;
+}
